@@ -39,27 +39,114 @@
 <body>
     <header>
         <nav>
-            <div class="nav-title">Portfolio - Timéo Gastineau</div>
-
-            <label for="toggle-menu">
-                <span>-</span>
-                <span>-</span>
-                <span>-</span>
-            </label>
-
+            <div class="nav-title"><img src="images/portfolio.png"> Portfolio - Timéo</div>
+            
             <input type="checkbox" name="" id="toggle-menu">
 
+            <label for="toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
             <ul>
-                <li><a href="#presentation"><img src="images/homepage.png"> Accueil</a></li>
-                <li><a href="#about-me"><img src="images/epingle.png"> A propos</a></li>
-                <li><a href="#farisun" class="projets"><img src="images/projets.png"> Projets</a></li>
-                <li><a href="#skills"><img src="images/skills.png"> Compétences</a></li>
-                <li><a href="#contact"><img src="images/mail.png"> Contact</a></li>
+                <li>
+                    <a class="homepage" href="#homepage">
+                        <span>
+                            <img src="images/homepage.png">
+                            <img src="images/homepage2.png">
+                        </span>
+                    Accueil
+                    </a>
+                </li>
+                <li>
+                    <a class="epingle" href="#about-me">
+                        <span>
+                            <img src="images/epingle.png">
+                            <img src="images/epingle2.png">
+                        </span>
+                        À propos
+                    </a>
+                </li>
+                <li>
+                    <a class="studies" href="#studies">
+                        <span>
+                            <img src="images/studies.png">
+                            <img src="images/studies2.png">
+                        </span>
+                        Formations
+                    </a>
+                </li>
+                <li>
+                    <a class="projets" href="#farisun" class="projets">
+                        <span>
+                            <img src="images/projets.png">
+                            <img src="images/projets2.png">
+                        </span>
+                        Projets
+
+                    </a>
+                    
+                    <span class="for-mobile">
+                    ›
+                    </span>
+                    
+
+                    <ul>
+                        <li>
+                            <a class="projets" href="#farisun" class="projets">
+                                <span>
+                                    <img src="images/farisunblanc.png">
+                                    <img src="images/farisunblanc2.png">
+                                </span>
+                                FariSun
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="projets" href="#cybersec" class="projets">
+                                <span>
+                                    <img src="images/cadenasblanc.png">
+                                    <img src="images/cadenasblanc2.png">
+                                </span>
+                                CyberSécurité
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="projets" href="#unity" class="projets">
+                                <span>
+                                    <img src="images/unityblanc.png">
+                                    <img src="images/unityblanc2.png">
+                                </span>
+                                Unity
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="skills" href="#skills">
+                        <span>
+                            <img src="images/skills.png">
+                            <img src="images/skills2.png">
+                        </span>
+                        Compétences
+                    </a>
+                </li>
+                <li>
+                    <a class="mail" href="#contact">
+                        <span>
+                            <img src="images/mail.png">
+                            <img src="images/mail2.png">
+                        </span>
+                        Contact
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <div class="presentation" id="presentation">
+    <div class="presentation" id="homepage">
 
 
         <!-- particles.js container -->
@@ -77,7 +164,7 @@
 
         <div class="espaceTop">
             <div>
-                <h5 class="balise">&#8249body&#8250</h5>
+                <h5 class="balise">&#8249accueil&#8250</h5>
                 <br>
                 <h4 class="hi bleuclair">Hey, moi c'est</h4>
                 <h1 class="nom text-light reveal">Timéo Gastineau.</h1>
@@ -87,7 +174,7 @@
                 <h5 class="aboutme">Passionné par la programmation et le monde de l'informatique,<br>
                     le métier de développeur m'intéresse beaucoup.</h5>
                 <br>
-                <h5 class="balise">&#8249/body&#8250</h5>
+                <h5 class="balise">&#8249/accueil&#8250</h5>
             </div>
             <!--
                     <div class="col">
@@ -100,45 +187,212 @@
     <div class="accueil" id="about-me">
         <input type="checkbox" id="toggle-about-me">
         <div class="popup">
+
+            <label for="toggle-about-me" class="bg-popup"></label>
+
             <div class="popup-main">
                 <label for="toggle-about-me">+</label>
     
                 <div class="popup-content">
-                    <img src="images/dev.png">
+                    <p>Passionné par l'informatique depuis mon plus jeune âge, je m'intéresse beaucoup à la programmation. J'adore créer, innover et découvrir tout ce qui touche aux nouvelles technologies.</p>
+                    <p>Actuellement âgé de 19 ans, je suis en <a href="https://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers">BTS SIO</a> (Services Informatiques aux Organisations) avec l'option <a href="https://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers">SLAM</a> (Solutions Logicielles et Applications Métiers) au <a href="https://chevrollier.paysdelaloire.e-lyco.fr/">Lycée Chevrollier</a> à Angers. Cette filière me permet de me spécialiser plus sérieusement dans le développement informatique (Logiciels, sites Web, Réseaux...). J'apprends de nombreux langages de programmation et je suis donc capable de m'adapter à différents systèmes et infrastructures.
+                    </p>
+                    <p>J'aime me renseigner et rester à l'affut des nouveautés. Pour cela, j'utilise plusieurs outils tels que <a href="https://openclassrooms.com/fr/">OpenClassrooms</a>, <a href="https://korben.info/">Korben.info</a>, <a href="https://www.twitch.tv/micode">Underscore</a> ainsi que des serveurs Discord regroupant des communautés en lien avec l'informatique.</p>
                 </div>
             </div>
         </div>
 
 
-        <div class="baliseBefore text-light">&#8249A propos&#8250</div>
+        <div class="baliseBefore text-light">&#8249À propos&#8250</div>
         <div class="conteneur">
             <span>
-                <img class="photo reveal" src="images/dev.png">
+                <img class="reveal" src="images/dev.png">
             </span>
             
             <div class="fondbleu text-light reveal">
                 <div class="texteFondBleu reveal">
                     <p>Passionné par l'informatique depuis mon plus jeune âge, je m'intéresse beaucoup à la programmation. J'adore créer, innover et découvrir tout ce qui touche aux nouvelles technologies.</p>
-                    <p>Actuellement âgé de 19 ans, je suis en BTS SIO (Services Informatiques aux Organisations) avec l'option SLAM (solutions logicielles et applications métiers) au Lycée Chevrollier à Angers. Cette filière me permet de me spécialiser plus sérieusement dans le développement informatique (Logiciels, sites Web, Réseaux...). J'apprends de nombreux langages de programmation et je suis donc capable de m'adapter à différents systèmes et infrastructures.
+                    <p>Actuellement âgé de 19 ans, je suis en <a href="https://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers">BTS SIO</a> (Services Informatiques aux Organisations) avec l'option <a href="https://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers">SLAM</a> (Solutions Logicielles et Applications Métiers) au <a href="https://chevrollier.paysdelaloire.e-lyco.fr/">Lycée Chevrollier</a> à Angers. Cette filière me permet de me spécialiser plus sérieusement dans le développement informatique (Logiciels, sites Web, Réseaux...). J'apprends de nombreux langages de programmation et je suis donc capable de m'adapter à différents systèmes et infrastructures.
                     </p>
-                    <p>J'aime me renseigner et rester à l'affut des nouveautés. Pour cela, j'utilise plusieurs outils tels que OpenClassrooms, Korben.info, Underscore ainsi que des serveurs Discord regroupant des communautés en lien avec l'informatique.</p>
+                    <p>J'aime me renseigner et rester à l'affut des nouveautés. Pour cela, j'utilise plusieurs outils tels que <a href="https://openclassrooms.com/fr/">OpenClassrooms</a>, <a href="https://korben.info/">Korben.info</a>, <a href="https://www.twitch.tv/micode">Underscore</a> ainsi que des serveurs Discord regroupant des communautés en lien avec l'informatique.</p>
                 </div>
 
-                <label for="toggle-about-me">en savoir plus</label>
+                    <!-- <div class="links-title">
+                        <div class="links-title-left">
+                            AGRANDIR
+                        </div>
+                        <div class="links-title-right">
+                            COMPÉTENCES
+                        </div>
+                    </div> -->
+                    <div class="links">
+                        <div class="more-details">
+                            <label for="toggle-about-me"><span class="read-more">+</span></label>
+                        </div>
 
-                <div class="external-links">
-                    <a target="_blank" href="https://chevrollier.paysdelaloire.e-lyco.fr/"><img class="logoInternet reveal" src="images/site.png"></a>
+                        <div class="external-links">
+                            <a target="_blank" href="https://chevrollier.paysdelaloire.e-lyco.fr/"><img class="logoInternet reveal" src="images/student.png"></a>
+                            <a target="_blank" href="https://openclassrooms.com/fr/"><img class="logoInternet reveal" src="images/openclassrooms.png"></a>
+                            <a target="_blank" href="https://korben.info/"><img class="logoInternet reveal" src="images/korben.webp"></a>
+                        </div>
+                        
+
+                    </div>
+
+            </div>
+        </div>
+        <div class="baliseAfter text-light">&#8249/À propos&#8250</div>
+    </div>
+
+
+
+    <div class="accueil" id="studies">
+
+
+        <input type="checkbox" id="toggle-studies1">
+        <div class="popup">
+
+            <label for="toggle-studies1" class="bg-popup"></label>
+
+            <div class="popup-main">
+                <label for="toggle-studies1">+</label>
+    
+                <div class="popup-content">
+                    <p>Avec mon Collège, nous avons participé au Concours Castor-Informatique.</p>
+                    <p>Ce concours a pour objectif d'initier les jeunes à l'informatique et les mathématiques liés au numérique. J'ai terminé 1er de mon établissement. Peu de temps après, j'ai aussi participé au concours Alkindi, j'ai été sélectionné pour la deuxième étape du concours. Nous avons du former des groupes de 3-4 élèves, malheureusement nous n'avons pas été retenus pour la suite qui était très sélective.</p>
                 </div>
             </div>
         </div>
-        <div class="baliseAfter text-light">&#8249/A propos&#8250</div>
+
+        <input type="checkbox" id="toggle-studies2">
+        <div class="popup">
+
+            <label for="toggle-studies2" class="bg-popup"></label>
+
+            <div class="popup-main">
+                <label for="toggle-studies2">+</label>
+    
+                <div class="popup-content">
+                    <p>Malgré l'avis de mes professeurs qui me conseillaient d'aller en BAC S (Sciences), j'ai décidé de m'orienter en BAC STI2D (Sciences et Technologies de l'Industrie et du Développement Durable) avec pour option SIN (Système d'Information et Numérique)</p>
+                    <p>Cette formation Générale & Technologique avait pour but de nous apprendre toute la partie liée à la technologie et à la programmation en travaillant en même temps sur le cycle de vie du produit et sa partie industrielle.</p>
+                    <p>J'ai obtenu mon BAC STI2D avec Mention Assez Bien.</p>
+                </div>
+            </div>
+        </div>
+
+        <input type="checkbox" id="toggle-studies3">
+        <div class="popup">
+
+            <label for="toggle-studies3" class="bg-popup"></label>
+
+            <div class="popup-main">
+                <label for="toggle-studies3">+</label>
+    
+                <div class="popup-content">
+                    <p>Après mon BAC, j'ai décidé de m'orienter en DUT Informatique (Diplôme Universitaire & Technologique en Informatique)</p>
+                    <p>Cette formation m'a été très utile pour approfondir mes connaissances en programmation. Néanmoins, je n'aimais pas les méthodes de travail qui étaient beaucoup trop théoriques selon moi. Je recherchais une formation avec plus de projets et de TP concrets, je me suis donc réorienté en BTS SIO au bout d'un an.</p>
+                </div>
+            </div>
+        </div>
+
+        <input type="checkbox" id="toggle-studies4">
+        <div class="popup">
+
+            <label for="toggle-studies4" class="bg-popup"></label>
+
+            <div class="popup-main">
+                <label for="toggle-studies4">+</label>
+    
+                <div class="popup-content">
+                    <p>Après ma 1ère année en DUT Informatique, je me suis réorienté en BTS SIO (Brevet de Technicien Supérieur - Services Informatiques aux Organisations).</p>
+                    <p>Cette formation est idéale de mon point de vue : nous avons des cours théoriques que nous mettons en pratique lors de TP concrets. J'ai de vrais objectifs et je comprends l'utilité de ce que j'apprends.</p>
+                    <p>J'ai pu développer mes connaissances dans différents langages de programmation tels que : HTML, CSS, PHP, JavaScript, SQL, C# et Python.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="baliseBefore text-light">&#8249Formations&#8250</div>
+        <div class="conteneur">
+            <span>
+                <img class="reveal" src="images/formations.png">
+            </span>
+            
+            <div class="fondbleu text-light reveal">
+                <div class="texteFondBleu reveal">
+
+                    <p>Formations</p>
+                    <div class="timeline-group">
+                        <div class="timeline">
+                            <div class="date">2017</div>
+                            <div class="icon"><label for="toggle-studies1"><span class="read-more">+</span></label></div>
+                            <div class="details">
+                                <label for="toggle-studies1">
+                                <p>✔ Concours Castor Informatique</p>
+                                <p>🎖 1er de mon établissement</p>
+                                </label>
+                            </div>
+                            
+                        </div>
+                        <div class="timeline">
+                            <div class="date">2017-2020</div>
+                            <div class="icon"><label for="toggle-studies2"><span class="read-more">+</span></label></div>
+                            <div class="details">
+                                <label for="toggle-studies2">
+                                <p>✔ BAC STI2D - SIN</p>
+                                <p>🎖 Mention Assez Bien</p>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="date">2020 - 2021</div>
+                            <div class="icon"><label for="toggle-studies3"><span class="read-more">+</span></label></div>
+                            <div class="details">
+                                <label for="toggle-studies3">
+                                <p>✔ DUT Informatique</p>
+                                <p>🎖 1ère année</p>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="date">2021 - 2022</div>
+                            <div class="icon"><label for="toggle-studies4"><span class="read-more">+</span></label></div>
+                            <div class="details">
+                                <label for="toggle-studies4">
+                                <p>✔ BTS SIO - SLAM</p>
+                                <p>🎖 1ère année</p>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <p>↓</p>
+                </div>
+
+                    <!-- <div class="links">
+                        <div class="more-details">
+                            <label for="toggle-studies"><span class="read-more">+</span></label>
+                        </div>
+
+                        <div class="external-links">
+                            <a target="_blank" href="https://chevrollier.paysdelaloire.e-lyco.fr/"><img class="logoInternet reveal" src="images/student.png"></a>
+                        </div>
+
+                        
+                    </div> -->
+
+            </div>
+        </div>
+        <div class="baliseAfter text-light">&#8249/Formations&#8250</div>
     </div>
+
+
+
 
     <div class="accueil accueil2" id="farisun">
         <div class="baliseBefore text-light">&#8249FariSun&#8250</div>
         <div class="conteneur">
             <span>
-                <img class="photo reveal" src="images/fari.png">
+                <img class="reveal" src="images/fari.png">
             </span>
 
             <div class="fondbleu text-light reveal">
@@ -159,18 +413,20 @@
         <div class="baliseAfter text-light">&#8249/FariSun&#8250</div>
     </div>
 
+
+
     <div class="accueil" id="cybersec">
         <div class="baliseBefore text-light">&#8249CyberSécurité&#8250</div>
         <div class="conteneur">
             <span>
-                <img class="photo reveal" src="images/hacker.png">
+                <img class="reveal" src="images/hacker.png">
             </span>
 
             <div class="fondbleu text-light reveal">
                 <div class="texteFondBleu reveal">En tant que développeur, je me dois de protéger au mieux ce que je programme.
                     <p>C'est pourquoi j'ai créé en cours un site vitrine contenant une boutique et des articles de sensibilisation à la cybersécurité.</p>
                     
-                    <p>Ce site m'a permis d'apprendre à utiliser WordPress et ses nombreux plugins. WordPress étant l'un des CMS les plus utilisés en entreprises, il est donc logique d'apprendre à s'en servir en tant que développeur.</p>
+                    <p>Ce site m'a permis d'apprendre à utiliser WordPress et ses nombreux plugins. WordPress étant l'un des CMS les plus utilisés en entreprise, il est donc logique d'apprendre à s'en servir en tant que développeur.</p>
                     
                     <p>De plus, ma formation me permet d'améliorer mes connaissances en cybersécurité. Nous apprenons de nombreuses méthodes afin de protéger nos programmes et les données personnelles des utilisateurs.</p>
                 </div>
@@ -188,7 +444,7 @@
         <div class="baliseBefore text-light">&#8249Unity&#8250</div>
         <div class="conteneur">
             <span>
-                <img class="photo reveal" src="images/unity.png">
+                <img class="reveal" src="images/unity.png">
             </span> 
 
             <div class="fondbleu text-light reveal">
